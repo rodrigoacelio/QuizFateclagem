@@ -52,7 +52,7 @@ let durationTime = setInterval(function(){
     }
     duration += 1;
     countdown.innerHTML = duration;
-    if(countdown.innerHTML == "10"){
+    if(countdown.innerHTML == "60"){
         step();
     }
 }, 1000);
